@@ -1,6 +1,6 @@
 MOON LANDER
 
-Version 2
+Version 0.03
 
 This game is meant to be run in command line.
 
