@@ -1,6 +1,6 @@
+
 # # # # # # # #    NEXT    # # # # # # # #
 
-[ ] Simply and/pr combine board initiate and write steps
 
 [?] fix bug where Johnathan got a crash message before he was out of fuel or had reached the surface.
 
@@ -10,29 +10,33 @@
 
 [X] if you run out of fuel, make it keep going.
 
-[ ] switch from turns to conditional end point
-
 [X] clean up input system
 
 [X] If you run out of fuel, fuel level in telemetry doesn't go below 0
-
-[ ] make frame automatically refresh even with no input
 
 [X] decide how to handle upward movement
 
 [X] add telemtry feedback
 
-[ ] randomly generate stars
+[X] randomly generate stars
 
-[ ] crash image or animation
+[X] crash image or animation
 
-[ ] Image of lander on ground for victory
+[X] Image of lander on ground for victory
+
+[ ] switch from turns to conditional end point
+
+[ ] make frame automatically refresh even with no input
+
+[ ] Simply and/or combine board initiate and write steps
 
 [ ] Display message when you're out of fuel and falling
 
 [ ] Make a bigger lander
 
+[ ] Make randomly generated stars stay and not get wiped when lander passes their row
 
+[ ] Center text in terminal window and/or write code that resizes the window to fit.
 
 # # # # # # # #    RESOURCES    # # # # # # # #
 
@@ -41,3 +45,11 @@
 [X] Use gets.chomp
 
 [ ] tty gems for command line
+
+[ ] system '__command__'
+
+
+# # # # # # # #    FRAME RATE    # # # # # # # #
+
+[ ] Can try using Time.now and then saying when it's 1 second later that it skips ahead to refresh or the next step (instead of waiting for user input forever) ... doesn't work though
+
