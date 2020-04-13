@@ -1,9 +1,11 @@
-This is MOON LANDER
+## This is MOON LANDER
 
-You are about to land on the moon. 
+A Unix CLI game written in Ruby.
 
-Wow! What a momentous and pivotal moment in your long journey to the stars! Don't screw it up!
+Simple as it may be, this game still provides a challenge. The ship has only so much fuel, and will accelerate towards the surface until you crash unless you use your thrusters strategically. Hit enter to progress through turns. Enter a number from 1-3 before hitting enter to modify how hard to pulse your thrusters. Safe landings!
 
-To play moon lander, run the Play_Moon_Lander.rb file in your terminal by running the command:
+To play, clone and run command `ruby Play_Moon_Lander.rb` from the project directory.
 
-"ruby Play_Moon_Lander.rb"
+Enjoy the randomly generated stars.
+
+![](moon-lander.gif)
